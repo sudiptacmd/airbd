@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-form input {
+  @apply w-full border my-2 py-2 px-3 rounded-2xl;
+}
+.login-form button {
+  @apply bg-primary text-white w-full py-2 rounded-2xl my-2;
+}
